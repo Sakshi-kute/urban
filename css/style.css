@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/** first part start **/
+
+.big-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-size: cover;
+}
+.navigation-area{
+    width: 100%;
+    
+}
+.navigation-area p{
+    float: left;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.navigation-area a{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.navigation-area a span{
+    margin-right: 5px;
+}
+.navigation-area p span{
+    color: #5385c1;
+}
+
+/* banner starts */
+
+.banner{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: #fff;
+
+}
+.banner h1{
+    font-size: 40;
+    font-weight: 500;
+}
+.banner button{
+    width: 100px;
+    height: 40px;
+    background-color: #5385c1;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 3px;
+    
+}
+
+/** second part **/
+.middle-section{
+   max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0px;
+   
+}
+.left{
+    width: 30%;
+    float: left;
+
+}
+
+.left img{
+    width: 100%;
+    border-radius: 100%;
+
+}
+.right{
+    width: 65%;
+    float: right;
+}
+.right p{
+    color: gray;
+   text-align: justify;
+    line-height: 20px;
+    font-weight: 500;
+    
+}
+.blue-button{
+    width: 100px;
+    height: 40px;
+    background-color: #5385c1;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+
+/* third part */
+.box3{
+    width: 100%;
+    
+    background-color: #5385c1;
+}
+.middle-section2{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+.middle-section2 .left2{
+    width: 65% ;
+    float: left;
+    color: #e7e6e6;
+}
+.middle-section2 .left2 p{
+    text-align: justify;
+    line-height: 20px;
+    font-weight: 500;
+}
+.middle-section2 .right2{
+    width: 30%;
+    float: right;
+}
+.middle-section2 .right2 img{
+    width: 100%;
+    border-radius: 100%;
+}
+.middle-section2 .left2 button{
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    color: #5385c1;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 3px;
+
+}
+
+/* fourth part */
+.box4{
+    width: 100%;
+    background-color: #fafafa;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+.last-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.last-section p{
+    color: grey;
+}
+.last-section h1{
+    font-weight: 500;
+}
+.one-box{
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    color: #ddbbdd;
+   
+}
+.add-margin{
+    
+    margin-left: 4.5%;
+}
+.one-box img{
+    width: 85%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #e7e6e6;
+    padding: 5px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    text-align: center;
+   
+    padding: 30px 0px;
+}
+.footer span{
+    color: gray;
+    font-size: 25px;
+    border: 2px solid #dbdbdb;
+    border-radius: 100%;
+    margin-right: 15px;
+    padding: 8px;
+}
+.footer p{
+    color: #dbdbdb;
+    margin-top: 25px;
+    font-size: 15px;
+}
+/* media query */
+@media only screen and (max-width:800px){
+    .left{
+        width: 100%;
+        clear: both;
+        text-align: center;
+
+    }
+    .left img{
+        width:50%;
+    }
+    .right{
+        width: 100%;
+       
+        text-align: center;
+    }
+    .right p{
+        text-align: center;
+    }
+    .middle-section{
+        margin: 0 20px;
+    }
+    /* third part */
+    .middle-section2 {
+        margin: 0 20px;
+    }
+    .middle-section2 .left2{
+        width: 100%;
+        clear: both;
+        text-align: center;
+
+    }
+    .middle-section2 .left2 p{
+        text-align: center;
+    }
+    .middle-section2 .left2 button{
+        margin-bottom: 20px;
+    }
+    .middle-section2 .right2{
+        width: 100%;
+        text-align: center;
+    
+    }
+    .middle-section2 .right2 img{
+        width: 50%;
+        
+    }
+
+    /* fourth part */
+    .one-box{
+        width: 100%;
+    }
+    .one-box img{
+        width: 50%;
+    }
+    
+    
+}
